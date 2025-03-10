@@ -14,6 +14,10 @@ This project is a Dash-based web application for predicting buy and sell signals
 ## Requirements
 To run this project locally, you need to install the following Python packages:
 
+```
+pip install dash plotly pandas numpy yfinance scikit-learn xgboost joblib diskcache
+```
+
 1. ``dash`` - Web framework for building the application.
 2. ``yfinance`` - Fetches historical Forex data.
 3. ``xgboost`` - Machine learning library for classification.
